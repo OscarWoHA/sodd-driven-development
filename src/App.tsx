@@ -48,7 +48,7 @@ export default function App() {
                         Become a SODD developer
                     </a>
 
-                    <p className="text-sm text-cyan-200">
+                    <p className="text-sm text-cyan-200 mb-10">
                         * find example experiment candidate{" "}
                         <a
                             href="https://github.com/OscarWoHA"
