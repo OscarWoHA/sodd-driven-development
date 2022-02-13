@@ -1,4 +1,4 @@
-# SODD-driven development
+# SODD driven development
 
 Development driven forward by the Norwegian national dish sodd!
 
