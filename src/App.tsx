@@ -10,7 +10,7 @@ export default function App() {
                 </p>
             </nav>
 
-            <header className="flex container mx-auto items-center pt-10 gap-10 xl:px-0 px-5">
+            <header className="flex container mx-auto items-center pt-10 gap-10 xl:px-0 px-5 mb-20 flex-1">
                 <section className="flex-1 flex flex-col">
                     <h1
                         className="xs:text-5xl text-4xl text-cyan-400 font-light mb-10"
@@ -43,16 +43,16 @@ export default function App() {
 
                     <a
                         href="https://www.youtube.com/watch?v=qogh6jQD1Ro"
-                        className="text-white bg-cyan-600 px-4 py-3 text-lg font-semibold hover:bg-cyan-700 rounded w-full lg:max-w-lg mb-5"
+                        className="text-white bg-cyan-600 px-6 py-5 text-xl font-semibold hover:bg-cyan-700 rounded w-full lg:max-w-lg mb-5"
                     >
                         Become a SODD developer
                     </a>
 
-                    <p className="text-sm text-cyan-200 mb-10">
+                    <p className="text-sm text-cyan-200">
                         * find example experiment candidate{" "}
                         <a
                             href="https://github.com/OscarWoHA"
-                            className="text-cyan-300 underline underline-offset-2"
+                            className="text-cyan-300 underline underline-offset-2 hover:text-cyan-400 focus:text-cyan-400"
                         >
                             here
                         </a>
@@ -64,6 +64,28 @@ export default function App() {
                     alt="a woman doing web development"
                 />
             </header>
+
+            <footer className="py-10 bg-slate-800">
+                <div className="container mx-auto xl:px-0 px-5">
+                    <p className="text-cyan-100">
+                        Made with <span className="text-red-300">passion</span>{" "}
+                        by{" "}
+                        <a
+                            href="https://github.com/OscarWoHA"
+                            className="font-medium underline underline-offset-4 hover:text-cyan-300 focus:text-cyan-300"
+                        >
+                            some norwegian guy on the internet
+                        </a>
+                        , source code on{" "}
+                        <a
+                            className="font-medium hover:text-cyan-300 focus:text-cyan-300"
+                            href="https://github.com/OscarWoHA/sodd-driven-development"
+                        >
+                            GitHub
+                        </a>
+                    </p>
+                </div>
+            </footer>
         </Fragment>
     );
 }
