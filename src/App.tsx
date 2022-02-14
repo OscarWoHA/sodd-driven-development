@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import { ArrowRight } from "react-feather";
 
 export default function App() {
     return (
@@ -26,6 +27,7 @@ export default function App() {
                         src="/undraw_proud_coder_re_exuy.svg"
                         alt="a woman doing web development"
                     />
+
                     <p
                         className="text-cyan-100 text-xl font-medium mb-5 lg:max-w-lg"
                         style={{ lineHeight: 1.75 }}
@@ -42,10 +44,12 @@ export default function App() {
                     </p>
 
                     <a
+                        rel="noreferrer"
+                        target="_blank"
                         href="https://www.youtube.com/watch?v=qogh6jQD1Ro"
-                        className="text-white bg-cyan-600 px-6 py-5 text-xl font-semibold hover:bg-cyan-700 rounded w-full lg:max-w-lg mb-5"
+                        className="text-white bg-cyan-600 px-6 py-5 text-xl font-semibold hover:bg-cyan-700 rounded w-full lg:max-w-lg mb-5 flex justify-between items-center"
                     >
-                        Become a SODD developer
+                        Become a SODD developer <ArrowRight />
                     </a>
 
                     <p className="text-sm text-cyan-200">
