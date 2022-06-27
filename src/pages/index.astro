@@ -37,7 +37,7 @@ import { ArrowRight } from "react-feather";
     <meta property="twitter:image" content="https://the-sodd-method.netlify.app/sodd-driven-development.jpg" />
 </head>
 
-<body class="h-full bg-slate-900 text-white flex flex-col">
+<body class="h-full bg-slate-900 text-white flex flex-col scroll-smooth">
     <nav class="container mx-auto py-3 mb-6 xl:px-0 px-5">
         <p class="text-xl">
             The <span class="font-serift font-medium">SODD</span>{" "}
@@ -45,37 +45,39 @@ import { ArrowRight } from "react-feather";
         </p>
     </nav>
 
-    <header class="grid grid-cols-1 md:grid-cols-2 container mx-auto gap-x-10 gap-y-3 xl:px-0 px-5 mb-20 flex-1">
+    <header class="grid grid-cols-1 md:grid-cols-2 container mx-auto gap-x-10 xl:px-0 px-5 mb-20 flex-1">
         <h1 class="xs:text-5xl text-4xl text-cyan-400 font-light mb-10 leading-10">
             <span class="text-6xl font-medium">SODD</span>
             <br />
             Driven Development
         </h1>
 
-        <img class="bg-cyan-100 bg-opacity-10 rounded p-10 mb-10 border-2 border-cyan-100 border-opacity-10 shadow md:row-start-1 md:row-end-7 md:col-start-2 md:col-end-2"
+        <img class=" rounded p-10 mb-10 border-2 border-cyan-100 border-opacity-10 shadow-lg md:row-start-1 md:row-end-7 md:col-start-2 md:col-end-2"
             src="/undraw_proud_coder_re_exuy.svg" alt="a woman doing web development" />
 
-        <p class="text-cyan-100 text-xl font-medium mb-5 lg:max-w-lg leading-7">
+        <p class="text-cyan-100 text-xl font-medium mb-3 lg:max-w-lg">
             A scientifically proven* method for building enterprise
             grade web services!
         </p>
-        <p class="text-cyan-100 text-lg mb-10 lg:max-w-lg leading-7">
+        <p class="text-cyan-100 text-lg mb-6 lg:max-w-lg">
             Improve your web development skills and become a true
             10x developer today by clicking the button below.
         </p>
 
-        <a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=qogh6jQD1Ro"
-            class="text-cyan-300 border border-cyan-300 px-6 py-5 text-xl font-semibold hover:bg-cyan-300 focus:bg-cyan-300 hover:text-cyan-900 focus:text-cyan-900 outline-none transition-colors rounded w-full lg:max-w-lg mb-5 flex justify-between items-center">
-            Become a SODD developer
-            <ArrowRight />
-        </a>
-
-        <p class="text-sm text-cyan-200">
-            * find example <a href="https://github.com/OscarWoHA" target="_blank" rel="noreferrer"
-                class="text-cyan-300 underline underline-offset-2 hover:text-cyan-500 focus:text-cyan-500 outline-none transition-colors">experiment
-                candidate here
+        <div>
+            <a rel="noreferrer" target="_blank" href="https://www.youtube.com/watch?v=qogh6jQD1Ro"
+                class="text-cyan-300 border border-cyan-300 px-6 py-5 text-xl font-semibold hover:bg-cyan-300 focus:bg-cyan-300 hover:text-cyan-900 focus:text-cyan-900 outline-none transition-colors rounded w-full lg:max-w-lg mb-5 flex justify-between items-center">
+                Become a SODD developer
+                <ArrowRight />
             </a>
-        </p>
+
+            <p class="text-sm text-cyan-200">
+                * find example <a href="https://github.com/OscarWoHA" target="_blank" rel="noreferrer"
+                    class="text-cyan-300 underline underline-offset-2 hover:text-cyan-500 focus:text-cyan-500 outline-none transition-colors">experiment
+                    candidate here
+                </a>
+            </p>
+        </div>
     </header>
 
     <footer class="py-10 bg-slate-800">
